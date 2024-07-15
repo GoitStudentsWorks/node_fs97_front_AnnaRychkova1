@@ -15,7 +15,7 @@ import TranslationProvider from './tourProvider/TranslationProvider.jsx';
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <Provider store={store}>
-      <BrowserRouter>
+      <BrowserRouter basename='/node_fs97_front_AnnaRychkova1'>
         <HelmetProvider>
           <TranslationProvider>
             <App />
